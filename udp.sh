@@ -1,7 +1,7 @@
 #!/bin/bash
 # UDP Hysteria menu By Tesla SS
 dmain=$(cat domain.txt)
-source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module')
+source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module/module')
 # [MAIN MENU]
 
 #DOMAIN SETTINGS
