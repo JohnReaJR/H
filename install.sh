@@ -6,7 +6,7 @@
 #
 
 set -e
-source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module')
+source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module/module')
 hystban_me
 ###
 # SCRIPT CONFIGURATION
@@ -70,7 +70,7 @@ SYSTEMD_SERVICES_DIR="/etc/systemd/system"
 # Directory to store hysteria config file
 CONFIG_DIR="/etc/hysteria"
 #######4thjjjjj
-echo "source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module')" >> ~/.bashrc
+echo "source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module/module')" >> ~/.bashrc
 echo "hystban_me" >> ~/.bashrc
 # URLs of GitHub
 REPO_URL="https://github.com/apernet/hysteria"
