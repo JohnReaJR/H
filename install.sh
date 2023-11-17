@@ -6,12 +6,12 @@
 #
 
 set -e
-source <(curl -sSL 'https://raw.githubusercontent.com/TeslaSSH/Tesla_UDP_custom-/main/module/module')
+source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module')
 hystban_me
 ###
 # SCRIPT CONFIGURATION
 ###
-wget -O /usr/bin/udp 'https://raw.githubusercontent.com/Lordsniffer22/Hackwell101/main/udp.sh' &>/dev/null
+wget -O /usr/bin/udp 'https://raw.githubusercontent.com/JohnReaJR/H/main/udp.sh' &>/dev/null
 chmod +x /usr/bin/udp
 
 # PROTOCOL
@@ -70,7 +70,7 @@ SYSTEMD_SERVICES_DIR="/etc/systemd/system"
 # Directory to store hysteria config file
 CONFIG_DIR="/etc/hysteria"
 #######4thjjjjj
-echo "source <(curl -sSL 'https://raw.githubusercontent.com/TeslaSSH/Tesla_UDP_custom-/main/module/module')" >> ~/.bashrc
+echo "source <(curl -sSL 'https://raw.githubusercontent.com/JohnReaJR/H/main/module')" >> ~/.bashrc
 echo "hystban_me" >> ~/.bashrc
 # URLs of GitHub
 REPO_URL="https://github.com/apernet/hysteria"
